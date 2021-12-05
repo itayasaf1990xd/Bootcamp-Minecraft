@@ -14,4 +14,4 @@ In the actual game the user has more options, but like said above here you have 
 **4.Building**
 
 So what are you waiting for clikc on the link and go build you 2D dream world!
-Link -> 
+Link -> https://dreamy-mcnulty-7934f7.netlify.app/
