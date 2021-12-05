@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Meta -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Shaked Benratzon">
+  <meta name="description" content="2D Minecraft game weekend assignment">
+  <meta name="keywords" content="Evgani King, HTML, CSS, JavaScript, Minecraft">
+  <!-- Title -->
+  <title>2D Minecraft</title>
+  <!-- Css -->
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/fonts.css">
+  <link rel="stylesheet" href="./css/nabar.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- Favicon -->
+  <link rel="icon" href="./assets/images/favicon/favicon.ico" type="image/x-icon" />
+  <!-- Scripts -->
+  <script src="./javascript/index.js" defer></script>
+  <script src="./javascript/menu.js" defer></script>
+</head>
+
+<body>
+  <!-- Home Screen -->
+  <div class="home-container">
+    <h1>Minecraft</h1>
+    <div class="logo"></div>
+    <div class="buttons-container">
+      <button class="button" onclick="startGame()">Play</button>
+      <button class="button" onclick="showRules()">Rules</button>
+      <button class="button" onclick="closeGame()">Close</button>
+    </div>
+    <div class="show-rules-container">
+      <div class="show-rules"></div>
+      <button class="button" onclick="exitRules()">Back</button>
+    </div>
+  </div>
+
+  <!-- The Game -->
+  <div class="world-Container">
+    <table id="newWorld"> </table>
+  </div>
+  <!-- Tools -->
+  <nav class="tools">
+    <div class="container picaxe-container">
+      <div class="picaxe"></div>
+      <div class="text">PICAXE</div>
+    </div>
+    <div class="container axe-container">
+      <div class="axe"></div>
+      <div class="text">AXE</div>
+    </div>
+    <div class="container shovel-container">
+      <div class="shovel"></div>
+      <div class="text">SHOVEL</div>
+    </div>
+    <div class="inventory">
+      <div class="inside-inventory"></div>
+    </div>
+    <div class="reset">
+      <button class="nav-button" onclick="resetGame()">Reset</button>
+    </div>
+    <div class="back-home">
+      <button class="nav-button" onclick="backHomeScreen()">Homescreen</button>
+    </div>
+  </nav>
+</body>
+
+</html>
